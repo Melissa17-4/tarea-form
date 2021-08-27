@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Cuestionario de Cine</h3>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <p>Nombre: <br/>
+            <input type="text" name="nombre" size="30">
+        </p>
+        <p>Apellidos: <br/>
+            <input type="text" name="apellidos" size="30">
+        </p>
+        <p>DNI: <br/>
+            <input type="text" name="dni" size="30">
+        </p>
+        <p>Edad: <br/>
+            <input type="text" name="edad" size="10">
+        </p>
+        <p>Sexo: <br/>
+            <select name="sexo">
+                <option value="0">...</option>
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Mejor Pelicula</legend>
+        <input type="radio" name="p1" value="1">El Padrino<br/>
+        <input type="radio" name="p1" value="2">Crepusculo<br/>
+        <input type="radio" name="p1" value="3">Los odiosos 8<br/>
+        <input type="radio" name="p1" value="4">Anatomia de un asesinato<br/>
+    </fieldset>
+    <fieldset>
+        <legend>Tu opinion</legend>
+        <textarea name="opinion" rows="15" cols="80"></textarea>
+    </fieldset>
+</body>
+</html>
